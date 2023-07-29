@@ -59,7 +59,7 @@ a:hover {
 
 ul {
   list-style: none;
-  padding-left: 0;
+  padding-left: 2ch;
 }
 
 ul li {
@@ -234,11 +234,11 @@ justify-content: space-between;
 }
 
 .tags li::before{
-  content: "<";
+  content: "< ";
 }
 
 .tags li::after{
-  content: ">";
+  content: " >";
 }
 
 .tags a{
