@@ -53,12 +53,13 @@ a {
 }
 
 a:hover {
-    background-color: var(--hovercolor);
-    color: #fff;
+  background-color: var(--hovercolor);
+  color: #fff;
 }
 
 ul {
   list-style: none;
+  padding-left: 0;
 }
 
 ul li {
