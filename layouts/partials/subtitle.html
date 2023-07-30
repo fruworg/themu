@@ -12,7 +12,7 @@
     function getCurrentDateTimeUTCPlus6() {
       const currentTime = new Date();
       const offset = currentTime.getTimezoneOffset(); // Получаем разницу в минутах между UTC и локальным временем
-      const utcPlus6DateTime = new Date(currentTime.getTime() + offset * 60 * 1000 + 6 * 60 * 60 * 1000); // Добавляем 6 часов к UTC+0
+      const utcPlus6DateTime = new Date(currentTime.getTime() + 6 * 60 * 60 * 1000); // Добавляем 6 часов к UTC+0
       return utcPlus6DateTime;
     }
 
