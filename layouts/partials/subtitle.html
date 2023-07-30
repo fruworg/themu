@@ -1,3 +1,34 @@
 <pre>   (@_  добро пожаловать на мой 
 \\\_\   <a href="https://github.com/fruworg/fruworg.github.io">open-source</a> веб-сайт!
-<____)  <time datetime="{{ now.Format "01.02.06 15:04:05" }}" style="color: var(--maincolor)">{{ now.Format "01.02.06 15:04:05" }} UTC+6</date></pre>
+<____)  <time datetime="id="time">">id="time" UTC+6</date></pre>
+
+<script>
+  // Функция для форматирования числа (добавляет ведущий ноль, если число меньше 10)
+  function formatNumber(num) {
+    return num < 10 ? '0' + num : num;
+  }
+   // Функция для получения текущего времени в поясе UTC+6
+  function getCurrentTimeUTCPlus6() {
+    const currentTime = new Date();
+    const offset = currentTime.getTimezoneOffset(); // Получаем разницу в минутах между UTC и локальным временем
+    const utcPlus6Time = new Date(currentTime.getTime() + offset * 60 * 1000 + 6 * 60 * 60 * 1000); // Добавляем 6 часов к UTC+0
+    return utcPlus6Time;
+  }
+   // Функция для обновления времени на странице
+  function updateClock() {
+    const timeElement = document.getElementById('time');
+    const currentTime = getCurrentTimeUTCPlus6();
+    const hours = formatNumber(currentTime.getUTCHours());
+    const minutes = formatNumber(currentTime.getUTCMinutes());
+    const seconds = formatNumber(currentTime.getUTCSeconds());
+
+    const timeString = `${hours}:${minutes}:${seconds} UTC+6`;
+    timeElement.innerText = timeString;
+  }
+
+  // Обновляем время каждую секунду
+  setInterval(updateClock, 1000);
+
+  // Вызываем функцию для первоначального обновления времени
+  updateClock();
+</script>
