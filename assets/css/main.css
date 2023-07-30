@@ -173,6 +173,7 @@ footer {
   align-items: center;
   padding: 2rem 0rem;
   margin-top: 2rem;
+  border-top: 0.2rem solid white;
 }
 
 .soc {
@@ -225,7 +226,11 @@ article .title {
   color: var(--maincolor);
 }
 
-.site-description {
+body .site-description{
+  text-align: center;
+}
+
+.site-description pre{
   display: flex;
   justify-content: space-between;
   text-align: left;
