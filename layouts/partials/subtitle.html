@@ -21,9 +21,9 @@
       const timeElement = document.getElementById('time');
       if (timeElement) {
         const currentDateTime = getCurrentDateTimeUTCPlus6();
-        const year = currentDateTime.getUTCFullYear();
-        const month = formatNumber(currentDateTime.getUTCMonth() + 1);
         const date = formatNumber(currentDateTime.getUTCDate());
+        const month = formatNumber(currentDateTime.getUTCMonth() + 1);
+        const year = currentTime.getUTCFullYear().toString().slice(-2); // Получаем последние две цифры года
         const hours = formatNumber(currentDateTime.getUTCHours());
         const minutes = formatNumber(currentDateTime.getUTCMinutes());
         const seconds = formatNumber(currentDateTime.getUTCSeconds());
