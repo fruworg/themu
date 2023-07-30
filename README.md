@@ -4,7 +4,7 @@
 ## Установка
 В директории веб-сайта Hugo клонируйте репозиторий:
 ```bash
-$ git submodule add https://github.com/fruworg/themu themes/themu
+git submodule add https://github.com/fruworg/themu themes/themu
 ```
 Нужно отредактировать файл `config.toml`, добавив строку `theme="themu"`.
 Дополнительную информацию можно найти в официальном [руководстве по установке](https://gohugo.io/installation/) Hugo.
