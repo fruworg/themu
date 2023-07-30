@@ -89,3 +89,6 @@ name = "Теги"
 url = "/tags"
 weight = 4
 ```
+
+## Спасибо
+[athul](https://github.com/athul/archie) и [jse.li](https://blog.jse.li)
