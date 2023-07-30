@@ -8,12 +8,12 @@ html {
   font-family: 'Roboto Mono', monospace;
   font-size: 15px;
   line-height: 1.6em;
-  background-color: black;
 }
 
 body{
   display: block;
   margin: 8px;
+  background-color: black;
 }
 
 * {
