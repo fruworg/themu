@@ -234,6 +234,8 @@ body .site-description{
   justify-content: space-between;
   text-align: left;
   display: inline-block;
+  color: var(--maincolor);
+  background-color: black;  
 }
 
 .tags li::before {
