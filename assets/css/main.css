@@ -12,7 +12,7 @@ display : block;
 margin : 8px;
 }
 ::selection {
-background : blue;
+background : var(--maincolor);
 color : #fff;
 }
 p {
@@ -28,12 +28,12 @@ margin : 0;
 padding-left : 1em;
 }
 a {
-border-bottom : 3px solid blue;
+border-bottom : 3px solid var(--maincolor);
 color : inherit;
 text-decoration : none;
 }
 a:hover {
-background-color : blue;
+background-color : var(--maincolor);
 color : #fff;
 }
 ul {
@@ -169,7 +169,7 @@ article .title {
 margin-bottom : 1em;
 }
 .callout {
-background-color : blue;
+background-color : var(--maincolor);
 color : #fff;
 padding : 1em;
 }
@@ -195,11 +195,11 @@ content : "<";
 content : ">";
 }
 .tags a {
-border-bottom : 3px solid blue;
+border-bottom : 3px solid var(--maincolor);
 }
 .tags a:hover {
 color : white;
-background-color : blue;
+background-color : var(--maincolor);
 }
 svg {
 max-height : 15px;
@@ -246,12 +246,12 @@ color : white;
 }
 .highlight pre code[class*="language-json"]::before {
 content : 'json';
-background : dodgerblue;
+background : dodgervar(--maincolor);
 color : #000000;
 }
 .highlight pre code[class*="language-python"]::before, .highlight pre code[class*="language-py"]::before {
 content : 'py';
-background : blue;
+background : var(--maincolor);
 color : yellow;
 }
 .highlight pre code[class*="language-css"]::before {
@@ -262,11 +262,11 @@ color : black;
 .highlight pre code[class*="language-go"]::before {
 content : 'Go';
 background : cyan;
-color : royalblue;
+color : royalvar(--maincolor);
 }
 .highlight pre code[class*="language-md"]::before, .highlight pre code[class*="language-md"]::before {
 content : 'Markdown';
-background : royalblue;
+background : royalvar(--maincolor);
 color : whitesmoke;
 }
 table {
@@ -287,20 +287,20 @@ color : white;
 background-color : black;
 }
 ::-moz-selection {
-background : blue;
+background : var(--maincolor);
 color : #fff;
 text-shadow : none;
 }
 ::selection {
-background : blue;
+background : var(--maincolor);
 color : #fff;
 text-shadow : none;
 }
 hr {
-border-top : 3px dotted blue;
+border-top : 3px dotted var(--maincolor);
 }
 code {
-background-color : lightblue;
+background-color : lightvar(--maincolor);
 color : black;
 padding : 0.1em 0.2em;
 }
@@ -311,7 +311,7 @@ overflow-x : auto;
 padding : 1em;
 }
 blockquote {
-border-color : blue;
+border-color : var(--maincolor);
 }
 h1, h2, h3, h4, h5, h6 {
 color : #ddd;
@@ -341,11 +341,11 @@ color : var(--maincolor);
 content : "###### ";
 }
 a {
-border-bottom : 3px solid blue;
+border-bottom : 3px solid var(--maincolor);
 color : inherit;
 }
 a:hover {
-background-color : blue;
+background-color : var(--maincolor);
 color : black;
 }
 .site-description a {
@@ -355,10 +355,10 @@ color : #ddd;
 color : black;
 }
 .tags a {
-border-bottom : 3px solid blue;
+border-bottom : 3px solid var(--maincolor);
 }
 .tags a:hover {
-background-color : blue;
+background-color : var(--maincolor);
 color : black;
 }
 .site-title a {
@@ -376,7 +376,7 @@ color : black;
 }
 .draft-label {
 color : var(--maincolor);
-background-color : blue;
+background-color : var(--maincolor);
 }
 .highlight pre code[class="language-javaScript"]::before, .highlight pre code[class="language-js"]::before {
 content : "js";
@@ -395,12 +395,12 @@ color : white;
 }
 .highlight pre code[class*="language-json"]::before {
 content : 'json';
-background : dodgerblue;
+background : dodgervar(--maincolor);
 color : #000000;
 }
 .highlight pre code[class*="language-python"]::before, .highlight pre code[class*="language-py"]::before {
 content : 'py';
-background : blue;
+background : var(--maincolor);
 color : yellow;
 }
 .highlight pre code[class*="language-css"]::before {
@@ -411,10 +411,10 @@ color : black;
 .highlight pre code[class*="language-go"]::before {
 content : 'Go';
 background : cyan;
-color : royalblue;
+color : royalvar(--maincolor);
 }
 .highlight pre code[class*="language-md"]::before, .highlight pre code[class*="language-md"]::before {
 content : 'Markdown';
-background : royalblue;
+background : royalvar(--maincolor);
 color : whitesmoke;
 }
