@@ -56,11 +56,7 @@ pygmentscodefencesguesssyntax = true
 paginate=3 # articles per page
 
 [params]
-	mode="auto" # color-mode → light,dark,toggle or auto
-	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
 	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/fruworg)"
-	mathjax = true # enable MathJax support
-	katex = true # enable KaTeX support
 
 # Social Tags
 
@@ -101,6 +97,3 @@ name = "Tags"
 url = "/tags"
 weight = 4
 ```
-
-## Credits
-Forked from [Archie Theme](https://github.com/athul/archie) and Licensed under MIT License
