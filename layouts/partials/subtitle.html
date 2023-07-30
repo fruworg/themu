@@ -1,9 +1,3 @@
-  <noscript>
-    <style>
-      #time { display: none; }
-    </style>
-  </noscript>
-
 <pre>   (@_  добро пожаловать на мой 
 \\\_\   <a href="https://github.com/fruworg/fruworg.github.io">open-source</a> веб-сайт!
 <____)  <time style="color: var(--maincolor)" id="time">тут должно было быть время</time></pre>
@@ -34,7 +28,7 @@
         const minutes = formatNumber(currentDateTime.getUTCMinutes());
         const seconds = formatNumber(currentDateTime.getUTCSeconds());
 
-        const dateTimeString = `${year}-${month}-${date} ${hours}:${minutes}:${seconds} UTC+6`;
+        const dateTimeString = `${date}.${month}.${year} ${hours}:${minutes}:${seconds} UTC+6`;
         timeElement.innerText = dateTimeString;
       }
     }
