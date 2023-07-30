@@ -16,7 +16,7 @@
 				{{ range $paginator.Pages }}
 				<section class="list-item">
 					<h1 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h1>
-					<time>{{ .Date.Format "01-02-2006 15:04:05"}}{{ .Site.Data.Strings.publishedon}} {{.Date.Day}} {{ index $.Site.Data.months.months .Date.Month }} {{.Date.Year}} {{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
+					<time>{{ .Date.Format "01-02-2006 15:04:05"}}{{ .Site.Data.Strings.publishedon}} {{.Date.Day}} {{ index $.Site.Data.Months.months .Date.Month }} {{.Date.Year}} {{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
 					<br>{{ template "partials/pagedescription.html" . }}
 				</section>
 				{{ end }}
