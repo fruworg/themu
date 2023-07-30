@@ -172,8 +172,7 @@ footer {
   display: flex;
   align-items: center;
   padding: 2rem 0rem;
-  margin-top: 2rem;
-  border-top: 0.2rem solid white;
+  margin-top: 0;
 }
 
 .soc {
