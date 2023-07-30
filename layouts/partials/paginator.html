@@ -8,7 +8,7 @@
     <a {{ if $pag.HasNext }}href="{{ $pag.Next.URL }}"{{ end }} class="page-link" aria-label="Next"><span aria-hidden="true">Вперёд →</span></a>
 	{{ end }}
 	</span>
-	<span class="page-item page-next">
+	<span class="page-item page-next" style="float: right">
 	{{ if $pag.HasNext }}
     <a {{ if $pag.HasNext }}href="{{ $pag.Next.URL }}"{{ end }} class="page-link" aria-label="Next"><span aria-hidden="true">Вперёд →</span></a>
         {{ else }}

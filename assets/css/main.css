@@ -228,6 +228,8 @@ article .title {
 .site-description {
   display: flex;
   justify-content: space-between;
+  text-align: left;
+  display: inline-block;
 }
 
 .tags li::before {
