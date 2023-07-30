@@ -231,11 +231,7 @@ article .title {
 }
 
 .tags li::before {
-  content: "<";
-}
-
-.tags li::after {
-  content: ">";
+  content: "* ";
 }
 
 .tags a {
