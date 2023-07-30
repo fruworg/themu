@@ -1,99 +1,91 @@
-## Demo
-[Check the Demo](https://fruw.org)
+## Демонстрация
+[Посмотреть демо](https://fruw.org)
 
-## Feature
-- Google Analytics Script
-- Callouts
-- Tags
-- Cache busting for CSS files
-
-## Installation
-In your Hugo website directory, create a new folder named themes and clone the repo
+## Установка
+В директории веб-сайта Hugo клонируйте репозиторий:
 ```bash
-$ mkdir themes
 $ git submodule add https://github.com/fruworg/themu themes/themu
 ```
-Edit the `config.toml` file with `theme="themu"`
-For more information read the official [setup guide](https://gohugo.io/installation/) of Hugo.
+Отредактируйте файл `config.toml`, добавив строку `theme="themu"`.
+Дополнительную информацию можно найти в официальном [руководстве по установке](https://gohugo.io/installation/) Hugo.
 
-## Writing Posts
-Create a new `.md` file in the *content/posts* folder
+## Создание статей
+Необходимо создать новый файл с расширением `.md` в папке *content/posts*:
 ```yml
 ---
-title: Title of the post
-description:
-date:
-draft: true/false (optional)
-tags: [tag names] (optional)
+title: Заголовок статьи
+description: Описание
+date: 2006-01-01T01:08:00+05:00
+draft: true/false (необязательно)
+tags: [названия тегов] (необязательно)
 ---
 ```
 
-## Config Options
+## Настройки конфигурации
 
-### Custom CSS
-Custom CSS files can be included though the `customcss` config parameter.
+### Пользовательские CSS-стили
+Пользовательские CSS-файлы можно добавить с помощью параметра конфигурации `customcss`.
 
-Note: CSS files should be placed under the `assets` directory e.g. `assets/css/first.css`.
+Примечание: CSS-файлы следует размещать в папке `assets`, например, `assets/css/first.css`.
 
 ```toml
 [params]
 	customcss = ["css/first.css", "css/second.css"]
 ```
 
-
-## Config of the Demo Site
+## Настройки демонстрационного сайта
 
 ```toml
-baseURL = "https://<name>.github.io"
+baseURL = "https://<имя>.github.io"
 languageCode = "en-us"
-title = "<name>"
+title = "<имя>"
 theme="themu"
-# Code Highlight
+# Подсветка кода
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-paginate=3 # articles per page
+paginate=3 # статей на страницу
 
 [params]
-	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/fruworg)"
+	subtitle = "Минимальная и чистая [тема блога для Hugo](https://github.com/fruworg)"
 
-# Social Tags
+# Социальные ссылки
 
 [[params.social]]
 name = "GitHub"
 icon = "github"
-url = "https://github.com/<name>"
+url = "https://github.com/<имя>"
 
 [[params.social]]
 name = "Twitter"
 icon = "twitter"
-url = "https://twitter.com/<name>"
+url = "https://twitter.com/<имя>"
 
 [[params.social]]
 name = "GitLab"
 icon = "gitlab"
-url = "https://gitlab.com/<name>"
+url = "https://gitlab.com/<имя>"
 
-# Main menu Items
+# Пункты главного меню
 
 [[menu.main]]
-name = "Home"
+name = "Главная"
 url = "/"
 weight = 1
 
 [[menu.main]]
-name = "All posts"
+name = "Все статьи"
 url = "/posts"
 weight = 2
 
 [[menu.main]]
-name = "About"
+name = "О сайте"
 url = "/about"
 weight = 3
 
 [[menu.main]]
-name = "Tags"
+name = "Теги"
 url = "/tags"
 weight = 4
 ```
