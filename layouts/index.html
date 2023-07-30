@@ -20,7 +20,7 @@
 				{{ range $paginator.Pages }}
 				<section class="list-item">
 					<h1 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h1>
-					<time datetime="{{ .Date.Format "01-02-2006 15:04:05"}}">{{ .Site.Data.Strings.publishedon}} {{.Date.Day}} {{ index $.Site.Data.themes.themu.months.months .Date.Month }} {{.Date.Year}}, {{ .Date.Format "15:04" }} UTC+6 {{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
+					<time datetime="{{ .Date.Format "01-02-2006 15:04:05"}}">{{ .Site.Data.Strings.publishedon}} {{.Date.Day}} {{ index $.Site.Data.months.months .Date.Month }} {{.Date.Year}}, {{ .Date.Format "15:04" }} UTC+6 {{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
 					<br>{{ template "partials/pagedescription.html" . }}
 				</section>
 				{{ end }}
