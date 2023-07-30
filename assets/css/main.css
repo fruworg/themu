@@ -179,7 +179,6 @@ footer {
 .soc {
   display: flex;
   align-items: center;
-  border-bottom: none;
 }
 
 .border {
