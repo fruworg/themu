@@ -92,6 +92,7 @@ figure h4 {
   margin: 0;
   margin-bottom: 1em;
 }
+
 figure h4::before {
   content: '↳ ';
 }
@@ -143,6 +144,7 @@ header {
 header .main {
   font-size: 1.5rem;
 }
+
 h1, h2, h3, h4, h5, h6 {
   font-size: 1.2rem;
   margin-top: 2em;
@@ -225,32 +227,32 @@ article .title {
   justify-content: space-between;
 }
 
-.tags li::before{
+.tags li::before {
   content: "<";
 }
 
-.tags li::after{
+.tags li::after {
   content: ">";
 }
 
-.tags a{
+.tags a {
   border-bottom: 3px solid var(--maincolor); 
 }
 
-.tags a:hover{
+.tags a:hover {
   color:white;
   background-color: var(--maincolor); 
 }
 
-svg{
+svg {
   max-height: 15px;
 }
 
-.soc:hover{
+.soc:hover {
   color: white;
 }
 
-.draft-label{ 
+.draft-label { 
     text-decoration: none;
     padding: 2px 4px;
     margin-left: 6px;
@@ -282,54 +284,54 @@ svg{
 
 .highlight pre code[class=language-javaScript]::before,
 .highlight pre code[class="language-js"]::before {
-content: "js";
-background: #f7df1e;
-color: black;
+  content: "js";
+  background: #f7df1e;
+  color: black;
 }
 
 .highlight pre code[class*='language-yml']::before,
 .highlight pre code[class*='language-yaml']::before {
-content: 'yaml';
-background: #f71e6a;
-color: white;
+  content: 'yaml';
+  background: #f71e6a;
+  color: white;
 }
 
 .highlight pre code[class*='language-shell']::before,
 .highlight pre code[class*='language-bash']::before,
 .highlight pre code[class*='language-sh']::before {
-content: 'shell';
-background: green;
-color:white
+  content: 'shell';
+  background: green;
+  color:white
 }
 
-.highlight pre code[class*='language-json']::before{
+.highlight pre code[class*='language-json']::before {
 content: 'json';
 background: dodgerblue;
- color: #000000 
+  color: #000000 
 }
 
 .highlight pre code[class*='language-python']::before,
 .highlight pre code[class*='language-py']::before {
-content: 'py';
-background: blue;
-color: yellow ;
+  content: 'py';
+  background: blue;
+  color: yellow ;
 }
 
-.highlight pre code[class*='language-css']::before{
-content: 'css';
-background: cyan;
-color: black ;
+.highlight pre code[class*='language-css']::before {
+  content: 'css';
+  background: cyan;
+  color: black ;
 }
 
-.highlight pre code[class*='language-go']::before{
-content: 'Go';
-background: cyan;
-color: royalblue ;
+.highlight pre code[class*='language-go']::before {
+  content: 'Go';
+  background: cyan;
+  color: royalblue ;
 }
 
 .highlight pre code[class*='language-md']::before,
-.highlight pre code[class*='language-md']::before{
-content: 'Markdown';
-background: royalblue;
-color: whitesmoke ;
+.highlight pre code[class*='language-md']::before {
+  content: 'Markdown';
+  background: royalblue;
+  color: whitesmoke ;
 }
