@@ -11,8 +11,8 @@
 			
 			<main class="list">
 				<div class="site-description">
-					{{- if isset .Site.Params "subtitle" -}}
-					<pre>{{ .Site.Params.Subtitle | markdownify }}</pre>
+					{{- if isset .Site.Params "description" -}}
+					<pre>{{ template "partials/subtitle.md" | markdownify }}</pre>
 					{{- end -}}
 				</div>
 				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
