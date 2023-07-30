@@ -1,9 +1,6 @@
 /* Markdown */
 :root{
 --maincolor: blue;
---callouctcolor: blue;
---hovercolor: blue;
---darkMaincolor: blue;
 }
 
 html {
@@ -49,7 +46,7 @@ a {
 }
 
 a:hover {
-  background-color: var(--hovercolor);
+  background-color: var(--maincolor);
   color: #fff;
 }
 
@@ -204,7 +201,7 @@ article .title {
 
 /* Callout */
 .callout {
-  background-color: var(--callouctcolor);
+  background-color: var(--maincolor);
   color: #fff;
   padding: 1em;
 }
@@ -220,7 +217,7 @@ article .title {
 
 .callout a:hover {
   background-color: #fff;
-  color: var(--callouctcolor);
+  color: var(--maincolor);
 }
 
 .site-description {
@@ -242,7 +239,7 @@ justify-content: space-between;
 
 .tags a:hover{
   color:white;
-  background-color: var(--hovercolor); 
+  background-color: var(--maincolor); 
 }
 
 svg{
@@ -360,13 +357,13 @@ body {
 }
 
 ::-moz-selection {
-  background: blue;
+  background: var(--maincolor);
   color: #fff;
   text-shadow: none;
 }
 
 ::selection {
-  background: red;
+  background: var(--maincolor);
   color: #fff;
   text-shadow: none;
 }
@@ -403,41 +400,41 @@ h6 {
 }
 
 h1::before {
-  color: var(--darkMaincolor);
+  color: var(--maincolor);
   content: "# ";
 }
 
 h2::before {
-  color: var(--darkMaincolor);
+  color: var(--maincolor);
   content: "## ";
 }
 
 h3::before {
-  color: var(--darkMaincolor);
+  color: var(--maincolor);
   content: "### ";
 }
 
 h4::before {
-  color: var(--darkMaincolor);
+  color: var(--maincolor);
   content: "#### ";
 }
 
 h5::before {
-  color: var(--darkMaincolor);
+  color: var(--maincolor);
   content: "##### ";
 }
 
 h6::before {
-  color: var(--darkMaincolor);
+  color: var(--maincolor);
   content: "###### ";
 }
 
 a {
-  border-bottom: 3px solid var(--darkMaincolor);
+  border-bottom: 3px solid var(--maincolor);
   color: inherit;
 }
 a:hover {
-  background-color: var(--darkMaincolor);
+  background-color: var(--maincolor);
   color: black;
 }
 
@@ -449,10 +446,10 @@ a:hover {
 }
 
 .tags a {
-  border-bottom: 3px solid var(--darkMaincolor);
+  border-bottom: 3px solid var(--maincolor);
 }
 .tags a:hover {
-  background-color: var(--darkMaincolor);
+  background-color: var(--maincolor);
   color: black;
 }
 
@@ -475,7 +472,7 @@ a:hover {
 }
 
 .draft-label {
-  color: var(--darkMaincolor);
+  color: var(--maincolor);
   background-color: blue;
 }
 
