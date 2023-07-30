@@ -6,7 +6,7 @@
 ```bash
 $ git submodule add https://github.com/fruworg/themu themes/themu
 ```
-Отредактируйте файл `config.toml`, добавив строку `theme="themu"`.
+Нужно отредактировать файл `config.toml`, добавив строку `theme="themu"`.
 Дополнительную информацию можно найти в официальном [руководстве по установке](https://gohugo.io/installation/) Hugo.
 
 ## Создание статей
