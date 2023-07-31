@@ -10,6 +10,7 @@
 				<div class="site-description">
 					{{- if isset .Site.Params "description" -}}
 					<pre>{{ template "partials/subtitle.html" . }}</pre>
+					<script src="static/"></script>
 					{{- end -}}
 				</div>
 				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
