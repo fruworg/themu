@@ -40,6 +40,7 @@ baseURL = "https://<имя>.github.io"
 languageCode = "en-us"
 title = "<имя>"
 theme="themu"
+
 # Подсветка кода
 pygmentsstyle = "monokai"
 pygmentscodefences = true
@@ -48,6 +49,7 @@ pygmentscodefencesguesssyntax = true
 paginate=3 # статей на страницу
 
 [params]
+    subtitleFile = true
 	subtitle = "Минимальная и чистая [тема блога для Hugo](https://github.com/fruworg)"
 
 # Социальные ссылки
