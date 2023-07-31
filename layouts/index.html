@@ -8,7 +8,7 @@
 			
 			<main class="list">
 				<div class="site-description">
-					{{- if .Param "subtitleFile" -}}
+					{{- if .Param "subtitlefile" -}}
 					{{ template "partials/subtitle.html" . }}
 					{{- else if isset .Site.Params "subtitle" -}}
 					<p>{{ .Site.Params.Subtitle | markdownify }}</p>
