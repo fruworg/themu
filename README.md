@@ -50,8 +50,8 @@ paginate=3 # статей на страницу
 
 [params]
 	description = themu description
-    subtitleFile = true
-	subtitle = "Минимальная и чистая [тема блога для Hugo](https://github.com/fruworg/themu)"
+	subtitlefile = true # описание из partials/subtitle.html
+	subtitle = "Минимальная и чистая [тема блога для Hugo](https://github.com/fruworg/themu)" # текстовое описание
 
 # Социальные ссылки
 
