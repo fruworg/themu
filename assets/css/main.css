@@ -273,7 +273,6 @@ svg {
 
 .highlight pre code[class*="language-"] {
   -webkit-overflow-scrolling: touch;
-  cursor: pointer;
 }
 
 .highlight pre code[class*="language-"]::before {
@@ -288,6 +287,7 @@ svg {
   text-align: right;
   text-transform: uppercase;
   top: 0;
+  cursor: pointer;
 }
 
 .highlight pre code[class=language-javaScript]::before,
