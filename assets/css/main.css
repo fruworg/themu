@@ -273,6 +273,7 @@ svg {
 
 .highlight pre code[class*="language-"] {
   -webkit-overflow-scrolling: touch;
+  cursor: pointer;
 }
 
 .highlight pre code[class*="language-"]::before {
@@ -312,8 +313,8 @@ svg {
 }
 
 .highlight pre code[class*='language-json']::before {
-content: 'json';
-background: dodgerblue;
+  content: 'json';
+  background: dodgerblue;
   color: #000000 
 }
 
