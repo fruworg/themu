@@ -36,7 +36,7 @@ codeElements.forEach((highlightBlock) => {
     document.body.removeChild(tempTextarea);
 
     // Можно добавить визуальную обратную связь для пользователя, например, изменить стиль ::before
-    // codeElement.style.setProperty('content', '"Copied!"');
+    codeElement.style.setProperty('content', '"Скопировано в буфер обмена!"');
     // setTimeout(() => codeElement.style.removeProperty('content'), 1000);
   });
 });
