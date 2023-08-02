@@ -37,6 +37,6 @@ codeElements.forEach((highlightBlock) => {
 
     // Можно добавить визуальную обратную связь для пользователя, например, изменить стиль ::before
     codeElement.style.setProperty('content', '"Скопировано в буфер обмена!"');
-    // setTimeout(() => codeElement.style.removeProperty('content'), 1000);
+    setTimeout(() => codeElement.style.removeProperty('content'), 1000);
   });
 });
