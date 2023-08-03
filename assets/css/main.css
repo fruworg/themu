@@ -27,7 +27,6 @@ body{
 }
 
 p {
-  font-family: 'Fira Sans', sans-serif;
   line-height: 1.5;
 }
 
@@ -212,7 +211,6 @@ article .title {
 }
 
 .callout p {
-  font-family: 'IBM Plex Mono', monospace;
   margin: 0;
 }
 
