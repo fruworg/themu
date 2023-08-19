@@ -144,9 +144,8 @@ function getRandomColorName() {
 }
 
 function setRandomColor() {
-  const colorBox = document.querySelector('.color-box');
   const randomColorName = getRandomColorName();
-  colorBox.style.setProperty('--maincolor', randomColorName);
+  document.documentElement.style.setProperty('--main-color', randomColorName);
 }
 
 // Set random color on page load
