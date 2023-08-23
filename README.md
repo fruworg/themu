@@ -30,7 +30,7 @@ tags: [названия тегов] (необязательно)
 
 ```toml
 [params]
-	customcss = ["css/first.css", "css/second.css"]
+customcss = ["css/first.css", "css/second.css"]
 ```
 
 ## Настройки демонстрационного сайта
@@ -49,9 +49,11 @@ pygmentscodefencesguesssyntax = true
 paginate=3 # статей на страницу
 
 [params]
-	description = themu description
-	subtitlefile = true # описание из partials/subtitle.html
-	subtitle = "Минимальная и чистая [тема блога для Hugo](https://github.com/fruworg/themu)" # текстовое описание
+description = themu description
+subtitlefile = true # описание из partials/subtitle.html
+subtitle = "Минимальная и чистая [тема блога для Hugo](https://github.com/fruworg/themu)" # текстовое описание
+og_image = "image.png"
+favicon = "favicon.ico"
 
 # Социальные ссылки
 
