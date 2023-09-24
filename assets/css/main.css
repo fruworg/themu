@@ -1,6 +1,6 @@
 /* Markdown */
 :root{
---maincolor: blue;
+--maincolor: peachpuff;
 }
 
 html {
@@ -23,7 +23,7 @@ body{
 
 ::selection {
   background: var(--maincolor);
-  color: #fff;
+  color: black;
 }
 
 p {
@@ -48,7 +48,7 @@ a {
 
 a:hover {
   background-color: var(--maincolor);
-  color: #fff;
+  color: black;
 }
 
 ul {
