@@ -111,8 +111,8 @@ code {
 pre {
   background-color: #ececec;
   line-height: 1.4;
-  overflow-x: auto;
   padding: 1em;
+  white-space: pre-wrap;
 }
 
 .highlight pre ::selection {
