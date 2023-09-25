@@ -264,6 +264,7 @@ code {
 
 ::-webkit-scrollbar {
   width: 3.5px;
+  height: 3.5px;
 }
 
 ::-webkit-scrollbar-track {
