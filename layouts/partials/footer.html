@@ -1,11 +1,7 @@
 <footer>
-  <div style="display:flex">
+  <div class="soc">
     {{- range $index, $key := .Site.Params.Social -}}
-    <a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}">{{ $key.name }}</i></a>
-    <a class="border"></a>
+    <a href="{{ $key.url }}" rel="me" title="{{ $key.name }}">{{ $key.name }}</i></a>
     {{- end -}}
   </div>
 </footer>
-{{ if not .Site.IsServer }}
-{{ template "_internal/google_analytics_async.html" . }}
-{{ end }}
