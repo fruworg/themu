@@ -251,3 +251,15 @@ svg {
   position: relative;
   -webkit-overflow-scrolling: touch;
 }
+
+::-webkit-scrollbar {
+  width: 3.5px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--maincolor);
+}
