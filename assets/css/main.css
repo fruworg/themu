@@ -253,6 +253,11 @@ svg {
   -webkit-overflow-scrolling: touch;
 }
 
+command::before {
+  content: "$ ";
+  color: #999; /* Цвет символа $ */
+}
+
 ::-webkit-scrollbar {
   width: 3.5px;
 }
