@@ -1,6 +1,5 @@
-/* Markdown */
 :root{
---maincolor: peachpuff;
+  --maincolor: peachpuff;
 }
 
 html {
@@ -8,6 +7,8 @@ html {
   font-family: monospace;
   font-size: 15px;
   line-height: 1.6em;
+  scrollbar-color: var(--maincolor) black;
+  scrollbar-width: thin;
 }
 
 body{
