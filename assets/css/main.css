@@ -243,28 +243,8 @@ body .site-description{
   content: "* ";
 }
 
-.tags a {
-  border-bottom: 3px solid var(--maincolor); 
-}
-
-.tags a:hover {
-  color:white;
-  background-color: var(--maincolor); 
-}
-
 svg {
   max-height: 15px;
-}
-
-.soc:hover {
-  color: white;
-}
-
-.draft-label { 
-    text-decoration: none;
-    padding: 2px 4px;
-    margin-left: 6px;
-    background-color: #f9f2f4;
 }
 
 .highlight {
