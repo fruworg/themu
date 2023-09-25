@@ -253,7 +253,7 @@ svg {
   -webkit-overflow-scrolling: touch;
 }
 
-span:not([style]):not([class^="language-sh"] span)::before {
+span:not([style]):not([class="language-sh"] span)::before {
   content: "$ ";
   color: #555;
 }
