@@ -1,5 +1,5 @@
 :root{
-  --maincolor: #6667AB;
+  --maincolor: peachpuff;
 }
 
 html {
@@ -254,7 +254,7 @@ svg {
 }
 
 span:not([style]):not([class="language-sh"] span):not([class="meta"]):not([class="pagination"] span)::before {
-  content: "$ ";
+  content: "# ";
   color: #555;
 }
 
