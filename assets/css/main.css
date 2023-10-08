@@ -141,10 +141,10 @@ pre code {
   max-width: 800px;
   padding: 20px 50px;
   word-wrap: break-word;
-  border-style: solid; 
+  /* border-style: solid; 
   border-bottom-width: 0;
   border-top-width: 0;
-  border-color: var(--maincolor);
+  border-color: var(--maincolor); */
 }
 
 /* Header */
