@@ -1,10 +1,10 @@
 :root{
-  --maincolor: white;
+  --maincolor: peachpuff;
 }
 
 html {
-  background-image: url("https://cache.teia.rocks/ipfs/QmX5JJBtzYcG8y2DGwnw6SmxNMba6nujgVh75CMHp5rc8A");
-  background-size: 800px;
+  background-image: url("https://mm4rk3t.neocities.org/gif/stars.gif");
+  background-size: 600px;
   background-attachment: fixed;
   background-position: center top;
   color: #232333;
