@@ -253,8 +253,13 @@ svg {
   -webkit-overflow-scrolling: touch;
 }
 
-span:not([style]):not([class="language-sh"] span):not([class="meta"]):not([class="pagination"] span)::before {
+span:not([style]):not([class="language-sh"] span):not([class="language-bash"] span):not([class="meta"]):not([class="pagination"] span)::before {
   content: "# ";
+  color: #555;
+}
+
+span:not([style]):not([class="language-sh"] span):not([class="meta"]):not([class="pagination"] span)::before {
+  content: "$ ";
   color: #555;
 }
 
