@@ -14,7 +14,7 @@ html {
   line-height: 1.6em;
   scrollbar-color: var(--maincolor) black;
   scrollbar-width: thin;
-  cursor: url("//fruw.org/cursor-auto.svg") 10 10, none;
+  cursor: url("//fruw.org/cursor-auto.svg") 10 10, auto;
 }
 
 body{
