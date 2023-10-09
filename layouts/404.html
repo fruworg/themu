@@ -1,1 +1,18 @@
-whoops
+<!DOCTYPE html>
+{{ partial "creds.html" . }}
+<html>
+	{{ partial "header.html" . }}
+	<body>
+		<div class="content">
+			{{ partial "head.html" . }}
+			
+			<main class="list">
+				<div class="site-description">
+					{{ template "partials/404.html" . }}
+				</div>
+			</main>
+			{{ partial "footer.html" . }}
+		</div>
+		
+	</body>
+</html>
