@@ -14,7 +14,7 @@ html {
   line-height: 1.6em;
   scrollbar-color: var(--maincolor) black;
   scrollbar-width: thin;
-  cursor: url("//fruw.org/cursor-auto.svg") 12 12, auto;
+  cursor: url("//fruw.org/cursor-auto.svg") 10 10, auto;
 }
 
 body{
@@ -50,13 +50,13 @@ a {
   border-bottom: 3px solid var(--maincolor);
   color: inherit;
   text-decoration: none;
-  cursor: url("//fruw.org/cursor-pointer.svg") 12 12, pointer;
+  cursor: url("//fruw.org/cursor-pointer.svg") 10 10, pointer;
 }
 
 a:hover {
   background-color: var(--maincolor);
   color: black;
-  cursor: url("//fruw.org/cursor-pointer.svg") 12 12, pointer;
+  cursor: url("//fruw.org/cursor-pointer.svg") 10 10, pointer;
 }
 
 ul {
