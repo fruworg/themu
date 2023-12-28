@@ -2,6 +2,11 @@
   --maincolor: peachpuff;
 }
 
+@font-face {
+    font-family: 'fantasque-sans-mono'; 
+    src: url('//fruw.org/fantasque-sans-mono.woff2'); 
+}
+
 html {
   background-color: black;
   background-image: url("https://mm4rk3t.neocities.org/gif/stars.gif");
@@ -9,7 +14,7 @@ html {
   background-attachment: fixed;
   background-position: center top;
   color: #232333;
-  font-family: monospace;
+  font-family: "fantasque-sans-mono", monospace;
   font-size: 15px;
   line-height: 1.6em;
   scrollbar-color: var(--maincolor) black;
