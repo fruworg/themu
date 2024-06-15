@@ -3,16 +3,16 @@
 <ul class="pagination">
 	<span class="page-item page-prev">
 	{{ if $pag.HasPrev }}
-    <a {{ if $pag.HasPrev }}href="{{ $pag.Prev.URL }}"{{ end }} class="page-link" aria-label="Previous"><span aria-hidden="true">%3C Назад</span></a>
+    <a {{ if $pag.HasPrev }}href="{{ $pag.Prev.URL }}"{{ end }} class="page-link" aria-label="Previous"><span aria-hidden="true">&lt; Назад</span></a>
 	{{ else }}
-    <a {{ if $pag.HasNext }}href="{{ $pag.Next.URL }}"{{ end }} class="page-link" aria-label="Next"><span aria-hidden="true">Вперёд %3E</span></a>
+    <a {{ if $pag.HasNext }}href="{{ $pag.Next.URL }}"{{ end }} class="page-link" aria-label="Next"><span aria-hidden="true">Вперёд &gt;</span></a>
 	{{ end }}
 	</span>
 	<span class="page-item page-next" style="float: right">
 	{{ if $pag.HasNext }}
-    <a {{ if $pag.HasNext }}href="{{ $pag.Next.URL }}"{{ end }} class="page-link" aria-label="Next"><span aria-hidden="true">Вперёд %3E</span></a>
+    <a {{ if $pag.HasNext }}href="{{ $pag.Next.URL }}"{{ end }} class="page-link" aria-label="Next"><span aria-hidden="true">Вперёд &gt;</span></a>
         {{ else }}
-    <a {{ if $pag.HasPrev }}href="{{ $pag.Prev.URL }}"{{ end }} class="page-link" aria-label="Previous"><span aria-hidden="true">%3C Назад</span></a>
+    <a {{ if $pag.HasPrev }}href="{{ $pag.Prev.URL }}"{{ end }} class="page-link" aria-label="Previous"><span aria-hidden="true">&lt; Назад</span></a>
 	{{ end }}
 	</span>
 </ul>
