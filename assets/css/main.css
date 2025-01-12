@@ -5,7 +5,6 @@
 html {
   background-color: black;
   background-image: url("https://fruw.org/background.gif");
-  background-attachment: fixed;
   background-position: center top;
   background-repeat: no-repeat;
   color: #232333;
@@ -24,7 +23,7 @@ html::before {
   right: 0;
   bottom: 0;
   background-color: black;
-  opacity: 0.7;
+  opacity: 0.8;
   z-index: -1;
 }
 
